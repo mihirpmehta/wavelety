@@ -43,7 +43,9 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Kd6-d7-frR">
                                 <rect key="frame" x="20" y="155" width="280" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Get mobile cannibis informationnow!</string>
+                                <string key="text">Get mobile 
+cannibis information
+now!</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -83,18 +85,241 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qf2-wN-RnS">
-                                <rect key="frame" x="20" y="70" width="100" height="29"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qf2-wN-RnS">
+                                <rect key="frame" x="10" y="70" width="100" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Indica" backgroundImage="search button bg-1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.011764707043766975" green="0.73333334922790527" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.011764707043766975" green="0.73333334922790527" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="indicaClicked:" destination="7xP-4M-hB6" eventType="touchUpInside" id="FOx-46-Lcz"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Qy-OZ-WNE">
+                                <rect key="frame" x="107" y="70" width="100" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Hybrid" backgroundImage="search button bg-1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.011764707040000001" green="0.73333334920000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.011764707040000001" green="0.73333334920000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="hybridClicked:" destination="7xP-4M-hB6" eventType="touchUpInside" id="HPr-rb-lkB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5iy-Hw-MYI">
+                                <rect key="frame" x="204" y="70" width="100" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sativa" backgroundImage="search button bg-1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.011764707040000001" green="0.73333334920000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.011764707040000001" green="0.73333334920000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sativaClicked:" destination="7xP-4M-hB6" eventType="touchUpInside" id="FX4-hl-acu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Fp-Si-n93">
+                                <rect key="frame" x="10" y="107" width="294" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Search strain properties">
+                                    <color key="titleColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="searchStrainProperties:" destination="7xP-4M-hB6" eventType="touchUpInside" id="pnK-EJ-3Jw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cz-uP-76o">
+                                <rect key="frame" x="13" y="145" width="295" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Search strain effect">
+                                    <color key="titleColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="searchStrainEffect:" destination="7xP-4M-hB6" eventType="touchUpInside" id="1wm-8T-wXf"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="9cd-l8-bVz">
+                                <rect key="frame" x="0.0" y="183" width="320" height="385"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="StrainNormalCell" rowHeight="64" id="AQG-8d-YoA" customClass="StrainNormalCell">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AQG-8d-YoA" id="ixX-GJ-gou">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="63"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUF-XO-hRH">
+                                                    <rect key="frame" x="20" y="21" width="164" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zw4-bf-9w2">
+                                                    <rect key="frame" x="224" y="25" width="16" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <state key="normal" backgroundImage="like heart in search page ">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <state key="highlighted" backgroundImage="like heart in search page pressed "/>
+                                                    <connections>
+                                                        <action selector="favorited:" destination="AQG-8d-YoA" eventType="touchUpInside" id="LQy-MW-h0y"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBL-fz-cMQ">
+                                                    <rect key="frame" x="256" y="25" width="16" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <state key="normal" backgroundImage="like heart in search page ">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="starred:" destination="AQG-8d-YoA" eventType="touchUpInside" id="RwU-fH-up2"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.011764707040000001" green="0.73333334920000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.011764707040000001" green="0.73333334920000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                        <connections>
+                                            <outlet property="titleLbl" destination="SUF-XO-hRH" id="bhg-oJ-3xY"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StrainExpandedCell" rowHeight="177" id="yuJ-ID-Skt" customClass="StrainExpandedCell">
+                                        <rect key="frame" x="0.0" y="86" width="320" height="177"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yuJ-ID-Skt" id="AVd-75-uM8">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="176"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="black line break" translatesAutoresizingMaskIntoConstraints="NO" id="f6q-gF-gFp">
+                                                    <rect key="frame" x="0.0" y="63" width="320" height="2"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vF-Ro-3hL">
+                                                    <rect key="frame" x="20" y="20" width="164" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <color key="textColor" red="1" green="0.63529413938522339" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSc-ot-sKu">
+                                                    <rect key="frame" x="225" y="24" width="16" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <state key="normal" backgroundImage="like heart in search page ">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <state key="highlighted" backgroundImage="like heart in search page pressed "/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhq-hB-MZx">
+                                                    <rect key="frame" x="257" y="24" width="16" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <state key="normal" backgroundImage="like heart in search page ">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                </button>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="142-dU-dzv">
+                                                    <rect key="frame" x="10" y="78" width="84" height="84"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAn-6W-47G">
+                                                    <rect key="frame" x="107" y="73" width="207" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZW-6u-Jge">
+                                                    <rect key="frame" x="107" y="146" width="193" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.035294119268655777" green="0.19215688109397888" blue="0.32156863808631897" alpha="1" colorSpace="deviceRGB"/>
+                                        <connections>
+                                            <outlet property="descriptionTextView" destination="fAn-6W-47G" id="xYw-Pg-cNq"/>
+                                            <outlet property="favorited" destination="kSc-ot-sKu" id="9sm-lq-mct"/>
+                                            <outlet property="ingredientLbl" destination="BZW-6u-Jge" id="20X-lU-e7d"/>
+                                            <outlet property="starred" destination="Yhq-hB-MZx" id="Bny-pD-Z4l"/>
+                                            <outlet property="strainImage" destination="142-dU-dzv" id="wwC-pG-Cac"/>
+                                            <outlet property="titleLbl" destination="8vF-Ro-3hL" id="hFe-Vt-rSZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="7xP-4M-hB6" id="8mZ-43-a4D"/>
+                                    <outlet property="delegate" destination="7xP-4M-hB6" id="Vew-oh-63L"/>
+                                </connections>
+                            </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" tag="123" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="mXN-wo-3V2" userLabel="Gray Activity Indicator">
+                                <rect key="frame" x="142" y="266" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.039215687662363052" green="0.20000001788139343" blue="0.3333333432674408" alpha="1" colorSpace="deviceRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1cz-uP-76o" firstAttribute="top" secondItem="8Fp-Si-n93" secondAttribute="bottom" constant="8" symbolic="YES" id="7GI-wM-juu"/>
+                            <constraint firstItem="8Fp-Si-n93" firstAttribute="top" secondItem="5iy-Hw-MYI" secondAttribute="bottom" constant="8" symbolic="YES" id="7ol-iY-udA"/>
+                            <constraint firstItem="8Fp-Si-n93" firstAttribute="centerX" secondItem="1Qy-OZ-WNE" secondAttribute="centerX" id="7v3-Yj-alm"/>
+                            <constraint firstItem="9cd-l8-bVz" firstAttribute="leading" secondItem="rgl-HW-kXN" secondAttribute="leading" id="Eti-m4-MId"/>
+                            <constraint firstAttribute="centerX" secondItem="mXN-wo-3V2" secondAttribute="centerX" id="F7D-SN-uzA"/>
+                            <constraint firstItem="8Fp-Si-n93" firstAttribute="top" secondItem="1Qy-OZ-WNE" secondAttribute="bottom" constant="8" symbolic="YES" id="Gnl-Wy-656"/>
+                            <constraint firstItem="8Fp-Si-n93" firstAttribute="top" secondItem="Qf2-wN-RnS" secondAttribute="bottom" constant="8" symbolic="YES" id="LZl-hL-wTi"/>
+                            <constraint firstItem="1cz-uP-76o" firstAttribute="leading" secondItem="rgl-HW-kXN" secondAttribute="leading" constant="13" id="SSR-NF-g29"/>
+                            <constraint firstAttribute="trailing" secondItem="9cd-l8-bVz" secondAttribute="trailing" id="Spy-Uy-C9n"/>
+                            <constraint firstItem="nbx-fx-XLf" firstAttribute="top" secondItem="9cd-l8-bVz" secondAttribute="bottom" id="TIU-OR-maM"/>
+                            <constraint firstItem="1cz-uP-76o" firstAttribute="top" secondItem="rgl-HW-kXN" secondAttribute="top" constant="145" id="Ua1-Pz-7ev"/>
+                            <constraint firstItem="8Fp-Si-n93" firstAttribute="leading" secondItem="Qf2-wN-RnS" secondAttribute="leading" id="WhF-Y4-RQO"/>
+                            <constraint firstItem="1cz-uP-76o" firstAttribute="centerX" secondItem="9cd-l8-bVz" secondAttribute="centerX" id="aGy-4Y-Rng"/>
+                            <constraint firstItem="8Fp-Si-n93" firstAttribute="leading" secondItem="rgl-HW-kXN" secondAttribute="leading" constant="10" id="cRs-tQ-7ql"/>
+                            <constraint firstAttribute="centerY" secondItem="mXN-wo-3V2" secondAttribute="centerY" id="cYr-Yx-UpP"/>
+                            <constraint firstItem="9cd-l8-bVz" firstAttribute="top" secondItem="1cz-uP-76o" secondAttribute="bottom" constant="8" id="hyf-xj-Lvd"/>
+                            <constraint firstAttribute="trailing" secondItem="8Fp-Si-n93" secondAttribute="trailing" constant="16" id="mNQ-AE-RLJ"/>
+                            <constraint firstItem="8Fp-Si-n93" firstAttribute="trailing" secondItem="5iy-Hw-MYI" secondAttribute="trailing" id="mly-p3-EQ1"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vSV-Tf-9AC"/>
+                    <connections>
+                        <outlet property="hybridButton" destination="1Qy-OZ-WNE" id="jQE-yh-wg5"/>
+                        <outlet property="indicaBtn" destination="Qf2-wN-RnS" id="Emz-Z5-1UY"/>
+                        <outlet property="sativaBtn" destination="5iy-Hw-MYI" id="d3R-zj-JL1"/>
+                        <outlet property="searchStrainEffectBtn" destination="1cz-uP-76o" id="kiJ-T2-Def"/>
+                        <outlet property="searchStrainPropertyBtn" destination="8Fp-Si-n93" id="Vkz-Yi-eoc"/>
+                        <outlet property="strainTable" destination="9cd-l8-bVz" id="Phu-ON-THo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z5F-xa-uSt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -124,8 +349,13 @@
     </scenes>
     <resources>
         <image name="background" width="320" height="480"/>
+        <image name="black line break" width="320" height="2"/>
+        <image name="like heart in search page " width="16" height="13"/>
+        <image name="like heart in search page pressed " width="16" height="13"/>
         <image name="logo on first page" width="106" height="106"/>
         <image name="search button bg" width="153" height="46"/>
+        <image name="search button bg-1" width="100" height="29"/>
+        <image name="square placeholder" width="84" height="84"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

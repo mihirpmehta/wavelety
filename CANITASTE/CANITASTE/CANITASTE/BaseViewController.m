@@ -54,7 +54,7 @@
    // [self.customNavigationBar setBounds:CGRectMake(0, 0, 320, 60)];
     
     [self.view addSubview:self.customNavigationBar];
-    [self.view sendSubviewToBack:self.customNavigationBar];
+    //[self.view sendSubviewToBack:self.customNavigationBar];
 }
 -(void) createBackButton
 {
