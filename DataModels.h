@@ -5,4 +5,7 @@
 //  Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 //
 
-#import "Allpost.h"#import "BaseClass.h"
+#import "Allpost.h"
+#import "BaseClass.h"
+#import "Blog.h"
+#import "Blog2.h"

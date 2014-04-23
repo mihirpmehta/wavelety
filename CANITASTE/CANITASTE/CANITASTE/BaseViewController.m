@@ -59,9 +59,6 @@
 -(void) createBackButton
 {
     
-    
-   
-    
     UIImageView *uView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"NavigationMenu"]];
     UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
     leftButton.frame = CGRectMake( 0, 0, uView.frame.size.width, uView.frame.size.height -16);

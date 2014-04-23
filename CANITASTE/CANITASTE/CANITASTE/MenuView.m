@@ -8,6 +8,8 @@
 
 #import "MenuView.h"
 
+
+
 @implementation MenuView
 
 - (id)initWithFrame:(CGRect)frame
@@ -39,6 +41,16 @@
         self.isShown = TRUE;
     }
 }
+
+- (IBAction)myFavs:(id)sender{
+
+}
+
+
+- (IBAction)rateCAnitaste:(id)sender{
+
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

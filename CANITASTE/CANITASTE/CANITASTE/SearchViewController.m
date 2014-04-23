@@ -12,6 +12,10 @@
 #import <AFNetworking/UIActivityIndicatorView+AFNetworking.h>
 #import <AFNetworking/UIImageView+AFNetworking.h>
 
+#import "BusinessDetailViewController.h" // Added temp
+#import "BlogViewController.h"
+
+
 @interface SearchViewController ()
 
 @end
@@ -127,9 +131,27 @@ AFJSONResponseSerializer *ser = (AFJSONResponseSerializer *) manager.responseSer
 
 }
 - (IBAction)indicaClicked:(id)sender {
+    
+    // Added temp
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    BusinessDetailViewController *vc = (BusinessDetailViewController *)[storyboard instantiateViewControllerWithIdentifier:@"BusinessDetail"];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+
 }
 
 - (IBAction)hybridClicked:(id)sender {
+    
+    // Added temp
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    BlogViewController *vc = (BlogViewController *)[storyboard instantiateViewControllerWithIdentifier:@"BlogController"];
+    
+    
+    [self.navigationController pushViewController:vc animated:YES];
+
+    
 }
 
 - (IBAction)sativaClicked:(id)sender {

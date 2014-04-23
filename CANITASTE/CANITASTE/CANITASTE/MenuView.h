@@ -18,4 +18,8 @@
 - (IBAction)showMenu:(id)sender;
 @property (weak, nonatomic) IBOutlet UIView *topView;
 @property (weak, nonatomic) IBOutlet UIView *detailView;
+
+- (IBAction)myFavs:(id)sender;
+- (IBAction)rateCAnitaste:(id)sender;
+
 @end

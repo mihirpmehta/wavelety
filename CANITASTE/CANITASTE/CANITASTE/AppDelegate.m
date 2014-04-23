@@ -7,12 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import <GoogleOpenSource/GoogleOpenSource.h>
+#import <GooglePlus/GooglePlus.h>
+
+static NSString * const kClientId = @"804508984152.apps.googleusercontent.com";
+
  
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // Set app's client ID for |GPPSignIn| and |GPPShare|.
+    [GPPSignIn sharedInstance].clientID = kClientId;
+
     return YES;
 }
 							
